@@ -56,11 +56,11 @@ const drawerWidth = 260;
 
 const primaryColor = [
   "#2F4357",
-  "#ab47bc",
-  "#8e24aa",
-  "#af2cc5",
-  "#e1bee7",
-  "#ba68c8"
+  "#35495C",
+  "#4D6075",
+  "#65798E",
+  "#7F93A9",
+  "#99ADC4"
 ];
 const secondaryColor = ["#fafafa"];
 const warningColor = [

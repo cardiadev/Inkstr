@@ -84,7 +84,7 @@ class SignUpPage extends React.Component {
         <Header
           absolute
           color="transparent"
-          brand="Material Kit PRO React"
+          brand="Inkstr"
           links={<HeaderLinks dropdownHoverColor="rose" />}
           {...rest}
         />
@@ -100,30 +100,30 @@ class SignUpPage extends React.Component {
             <GridContainer justify="center">
               <GridItem xs={12} sm={10} md={10}>
                 <Card className={classes.cardSignup}>
-                  <h2 className={classes.cardTitle}>Register</h2>
+                  <h2 className={classes.cardTitle}>Registro</h2>
                   <CardBody>
                     <GridContainer justify="center">
                       <GridItem xs={12} sm={5} md={5}>
                         <InfoArea
                           className={classes.infoArea}
-                          title="Marketing"
-                          description="We've created the marketing campaign of the website. It was a very interesting collaboration."
-                          icon={Timeline}
+                          title="Perfil Personalizado"
+                          description="Podras crear tu perfil y hacer el seguimiento de todos los artistas que eligas y sus trabajos"
+                          icon={Check}
                           iconColor="rose"
                         />
                         <InfoArea
                           className={classes.infoArea}
-                          title="Fully Coded in HTML5"
-                          description="We've developed the website with HTML5 and CSS3. The client has access to the code using GitHub."
-                          icon={Code}
-                          iconColor="primary"
+                          title="Estudios de Tatuaje"
+                          description="Obten información actualizada de todos los estudios de tatuaje que esten cerca de ti y las promociones que ofrecen."
+                          icon={Check}
+                          iconColor="rose"
                         />
                         <InfoArea
                           className={classes.infoArea}
-                          title="Built Audience"
-                          description="There is also a Fully Customizable CMS Admin Dashboard for this product."
-                          icon={Group}
-                          iconColor="info"
+                          title="Tatuadores Premium"
+                          description="Encuentra a los mejores tatuadores de Guadalajara, nosotros nos encargamos de verificar la autenticidad de los tatuadores."
+                          icon={Check}
+                          iconColor="rose"
                         />
                       </GridItem>
                       <GridItem xs={12} sm={5} md={5}>
@@ -134,10 +134,8 @@ class SignUpPage extends React.Component {
                             />
                           </Button>
                           {` `}
-                          <Button justIcon round color="dribbble">
-                            <i
-                              className={classes.socials + " fab fa-dribbble"}
-                            />
+                          <Button justIcon round color="google">
+                            <i className={classes.socials + " fab fa-google"} />
                           </Button>
                           {` `}
                           <Button justIcon round color="facebook">
@@ -147,7 +145,7 @@ class SignUpPage extends React.Component {
                           </Button>
                           {` `}
                           <h4 className={classes.socialTitle}>
-                            or be classical
+                            o registrate a la antigua
                           </h4>
                         </div>
                         <form className={classes.form}>
@@ -167,7 +165,7 @@ class SignUpPage extends React.Component {
                                   />
                                 </InputAdornment>
                               ),
-                              placeholder: "First Name..."
+                              placeholder: "Nombre Completo..."
                             }}
                           />
                           <CustomInput
@@ -208,6 +206,7 @@ class SignUpPage extends React.Component {
                               placeholder: "Password..."
                             }}
                           />
+                          <br />
                           <FormControlLabel
                             classes={{
                               label: classes.label
@@ -235,14 +234,15 @@ class SignUpPage extends React.Component {
                             }
                             label={
                               <span>
-                                I agree to the{" "}
-                                <a href="#pablo">terms and conditions</a>.
+                                Estoy de acuerdo con los{" "}
+                                <a href="#pablo">terminos y condiciones</a>.
                               </span>
                             }
                           />
                           <div className={classes.textCenter}>
+                            <br />
                             <Button round color="primary">
-                              Get started
+                              Registrarse
                             </Button>
                           </div>
                         </form>
@@ -259,52 +259,34 @@ class SignUpPage extends React.Component {
                 <div className={classes.left}>
                   <List className={classes.list}>
                     <ListItem className={classes.inlineBlock}>
-                      <a
-                        href="https://www.creative-tim.com/?ref=mkpr-signup"
-                        target="_blank"
-                        className={classes.block}
-                      >
-                        Creative Tim
+                      <a href="/" className={classes.block}>
+                        INKSTR
                       </a>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <a
-                        href="https://www.creative-tim.com/presentation?ref=mkpr-signup"
-                        target="_blank"
-                        className={classes.block}
-                      >
-                        About us
+                      <a href="/about-us" className={classes.block}>
+                        Nosotros
                       </a>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <a
-                        href="//blog.creative-tim.com/"
-                        className={classes.block}
-                      >
+                      <a href="/" className={classes.block}>
                         Blog
                       </a>
                     </ListItem>
                     <ListItem className={classes.inlineBlock}>
-                      <a
-                        href="https://www.creative-tim.com/license?ref=mkpr-signup"
-                        target="_blank"
-                        className={classes.block}
-                      >
-                        Licenses
+                      <a href="/" className={classes.block}>
+                        Aviso de Privacidad
                       </a>
                     </ListItem>
                   </List>
                 </div>
                 <div className={classes.right}>
-                  &copy; {1900 + new Date().getYear()} , made with{" "}
-                  <Favorite className={classes.icon} /> by{" "}
-                  <a
-                    href="https://www.creative-tim.com?ref=mkpr-signup"
-                    target="_blank"
-                  >
-                    Creative Tim
+                  &copy; {1900 + new Date().getYear()} , hecho con{" "}
+                  <Favorite className={classes.icon} /> por BEDU{" "}
+                  <a href="https://www.bedu.org/" target="_blank">
+                    UX | Frontend
                   </a>{" "}
-                  for a better web.
+                  students.
                 </div>
               </div>
             }
