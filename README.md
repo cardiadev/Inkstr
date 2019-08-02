@@ -1,8 +1,8 @@
-# [Inkstr](https://inkstr.co/)
+# [Inkstr | Tattoo App](https://inkstr.co/)
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
-![Product Presentation Image](https://s3.amazonaws.com/creativetim_bucket/products/89/original/opt_mkp_react_thumbnail.jpg)
+![Product Presentation Image](/src/assets/img/img_readme.jpg)
 
 **[Inkstr](https://#)** is a beautiful resource built for Material Design. It was made over the powerful Material-UI. We used and have redesigned all components to make it look flat, minimalist and easy to use. We are proud of this new Material-UI skin and the possibilities for customisation.
 

@@ -241,9 +241,11 @@ class SignUpPage extends React.Component {
                           />
                           <div className={classes.textCenter}>
                             <br />
-                            <Button round color="primary">
-                              Registrarse
-                            </Button>
+                            <a href="/">
+                              <Button round color="primary">
+                                Registrarse
+                              </Button>
+                            </a>
                           </div>
                         </form>
                       </GridItem>
