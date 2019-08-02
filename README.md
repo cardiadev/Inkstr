@@ -4,7 +4,7 @@
 
 ![Product Presentation Image](/src/assets/img/img_readme.jpg)
 
-**[Inkstr](https://#)** is a beautiful resource built for Material Design. It was made over the powerful Material-UI. We used and have redesigned all components to make it look flat, minimalist and easy to use. We are proud of this new Material-UI skin and the possibilities for customisation.
+**[Inkstr](https://#)** is a beautiful app for search inspiration for your next tattoo we proudly built with Material Design. It was made over the powerful Material-UI. We used and have redesigned all components to make it look flat, minimalist and easy to use.
 
 Using it is very simple and it will enable you to refresh you classic looking application. To get the desired effect you will also need to integrate ReactJS plugins that take a little bit more effort. In the end the result will be worth it.
 
@@ -22,7 +22,7 @@ Using it is very simple and it will enable you to refresh you classic looking ap
 
 ## Documentation
 
-The documentation for the Material Kit PRO React is hosted at our [website](https://#).
+The documentation for the Inkstr App Tattoo is hosted at our [website](https://#).
 
 ## Browser Support
 
@@ -32,9 +32,9 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the Material Kit PRO React. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Inkstr App Tattoo. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Material Kit PRO React. Check the CHANGELOG from your dashboard on our [website](https://inkstr.com).
+1. Make sure that you are using the latest version of the Inkstr App Tattoo. Check the CHANGELOG from your dashboard on our [website](https://inkstr.com).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
