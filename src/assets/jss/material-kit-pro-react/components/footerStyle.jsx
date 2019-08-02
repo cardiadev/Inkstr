@@ -68,7 +68,7 @@ const footerStyle = {
     padding: "1.875rem 0",
     "& h5, & h4": {
       fontWeight: 700,
-      fontFamily: "Roboto Slab,Times New Roman,serif",
+      fontFamily: "Montserrat, sans-serif",
       marginBottom: "15px"
     },
     "& p": {
@@ -175,7 +175,7 @@ const footerStyle = {
     color: grayColor[1],
     textDecoration: "none",
     fontWeight: 700,
-    fontFamily: "Roboto Slab,Times New Roman,serif"
+    fontFamily: "Montserrat, sans-serif"
   },
   pullCenter: {
     display: "inline-block",

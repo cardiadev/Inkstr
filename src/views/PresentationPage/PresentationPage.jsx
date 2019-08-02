@@ -1,19 +1,3 @@
-/*!
-
-=========================================================
-* Material Kit PRO React - v1.7.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-pro-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 /*eslint-disable*/
 import React from "react";
 // nodejs library to set properties for components
@@ -55,30 +39,22 @@ class PresentationPage extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit PRO React"
+          brand="INKSTR"
           links={<HeaderLinks dropdownHoverColor="info" />}
           fixed
           color="transparent"
           changeColorOnScroll={{
             height: 400,
-            color: "info"
+            color: "primary"
           }}
         />
-        <Parallax
-          image={require("assets/img/bg4.jpg")}
-          className={classes.parallax}
-        >
+        <Parallax image={require("assets/img/bg4.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1>
-                    Material Kit React
-                    <span className={classes.proBadge}>PRO</span>
-                  </h1>
-                  <h3 className={classes.title}>
-                    A Badass Material-UI Kit based on Material Design.
-                  </h3>
+                  <h1 className={classes.title}>Inkstr</h1>
+                  <h3 className={classes.subtitle}>Más que solo Tatuajes</h3>
                 </div>
               </GridItem>
             </GridContainer>
@@ -105,44 +81,29 @@ class PresentationPage extends React.Component {
                   target="_blank"
                   className={classes.footerBrand}
                 >
-                  Material Kit PRO React
+                  Inkstr | Tattoo App
                 </a>
               </div>
               <div className={classes.pullCenter}>
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/?ref=mkpr-presentation"
-                      target="_blank"
-                      className={classes.block}
-                    >
-                      Creative Tim
+                    <a href="#" target="_blank" className={classes.block}>
+                      Inicio
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/presentation?ref=mkpr-presentation"
-                      target="_blank"
-                      className={classes.block}
-                    >
-                      About us
+                    <a href="#" target="_blank" className={classes.block}>
+                      Nosotros
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="//blog.creative-tim.com/"
-                      className={classes.block}
-                    >
+                    <a href="#" className={classes.block}>
                       Blog
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/license?ref=mkpr-presentation"
-                      target="_blank"
-                      className={classes.block}
-                    >
-                      Licenses
+                    <a href="#" target="_blank" className={classes.block}>
+                      Aviso de Privacidad
                     </a>
                   </ListItem>
                 </List>
@@ -151,7 +112,7 @@ class PresentationPage extends React.Component {
                 <ul>
                   <li>
                     <Button
-                      href="https://twitter.com/CreativeTim?ref=creativetim"
+                      href="https://twitter.com/Inkstr"
                       target="_blank"
                       color="twitter"
                       justIcon
@@ -162,7 +123,18 @@ class PresentationPage extends React.Component {
                   </li>
                   <li>
                     <Button
-                      href="https://dribbble.com/creativetim?ref=creativetim"
+                      href="https://facebook.com/Inkstr"
+                      target="_blank"
+                      color="facebook"
+                      justIcon
+                      simple
+                    >
+                      <i className="fab fa-facebook" />
+                    </Button>
+                  </li>
+                  <li>
+                    <Button
+                      href="https://dribbble.com/Inkster"
                       target="_blank"
                       color="dribbble"
                       justIcon
@@ -173,7 +145,7 @@ class PresentationPage extends React.Component {
                   </li>
                   <li>
                     <Button
-                      href="https://instagram.com/CreativeTimOfficial?ref=creativetim"
+                      href="https://instagram.com/Inkstr"
                       target="_blank"
                       color="instagram"
                       justIcon

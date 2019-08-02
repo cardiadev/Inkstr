@@ -258,7 +258,7 @@ function HeaderLinks({ ...props }) {
           ]}
         />
       </ListItem>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Button
           href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-navbar"
           color={window.innerWidth < 960 ? "info" : "white"}
@@ -268,7 +268,7 @@ function HeaderLinks({ ...props }) {
         >
           <ShoppingCart className={classes.icons} /> buy now
         </Button>
-      </ListItem>
+      </ListItem> */}
     </List>
   );
 }

@@ -55,7 +55,7 @@ const hexToRgb = input => {
 const drawerWidth = 260;
 
 const primaryColor = [
-  "#9c27b0",
+  "#2F4357",
   "#ab47bc",
   "#8e24aa",
   "#af2cc5",
@@ -103,7 +103,7 @@ const infoColor = [
   "#b2ebf2",
   "#4dd0e1"
 ];
-const roseColor = ["#e91e63", "#ec407a", "#d81b60", "#f8bbd0", "#f06292"];
+const roseColor = ["#2A7EB6", "#ec407a", "#d81b60", "#f8bbd0", "#f06292"];
 const grayColor = [
   "#999",
   "#3C4858",
@@ -185,8 +185,8 @@ const card = {
 };
 
 const defaultFont = {
-  fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-  fontWeight: "300",
+  fontFamily: '"Montserrat", sans-serif',
+  fontWeight: "500",
   lineHeight: "1.5em"
 };
 
@@ -331,7 +331,7 @@ const title = {
   marginTop: "30px",
   marginBottom: "25px",
   minHeight: "32px",
-  fontFamily: `"Roboto Slab", "Times New Roman", serif`
+  fontFamily: `"Montserrat", sans-serif`
 };
 
 const cardTitle = {

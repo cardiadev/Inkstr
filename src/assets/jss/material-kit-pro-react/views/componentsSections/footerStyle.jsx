@@ -100,7 +100,7 @@ const style = {
     color: grayColor[1],
     textDecoration: "none",
     fontWeight: 700,
-    fontFamily: "Roboto Slab,Times New Roman,serif"
+    fontFamily: "Montserrat, sans-serif"
   },
   pullCenter: {
     display: "inline-block",

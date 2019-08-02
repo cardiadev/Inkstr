@@ -44,7 +44,7 @@ const typographyStyle = {
     width: "100%"
   },
   note: {
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily: '"Montserrat", sans-serif',
     bottom: "10px",
     color: grayColor[21],
     display: "block",
