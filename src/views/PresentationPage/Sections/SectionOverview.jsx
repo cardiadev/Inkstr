@@ -60,18 +60,20 @@ class SectionOverview extends React.Component {
             md={8}
             className={classNames(classes.mlAuto, classes.mrAuto)}
           >
-            <h2 className={classes.title}>Your work will get much easier</h2>
+            <h2 className={classes.title}>
+              La forma más facil para tu proximo tatuaje
+            </h2>
           </GridItem>
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem sm={3} className={classes.featuresShow}>
                 <InfoArea
-                  title="Material UI Grid"
+                  title="Inspiración"
                   description={
                     <p>
-                      Enjoy the fluid grid system based on 12 columns. Material
-                      Kit PRO is built over Bootstrap and has all the benefits
-                      that the framework comes with.
+                      Inspirate con nuestras galerias de tatuaje, encuentra
+                      algun estilo nuevo, y recibe sugerencias de esas imagenes
+                      que tanto te gustaron.
                     </p>
                   }
                   icon={Grid}
@@ -81,12 +83,12 @@ class SectionOverview extends React.Component {
               </GridItem>
               <GridItem sm={3} className={classes.featuresShow}>
                 <InfoArea
-                  title="Fully Responsive"
+                  title="Multi-Dispositivo"
                   description={
                     <p>
-                      This Material UI kit is built mobile-first and looks
-                      amazing on any device. Regardless of the screen size, the
-                      website content will naturally fit the given resolution.
+                      Inkstr lo podras encontrar en diversas plataformas como
+                      App Store, Play Store y su versión Web, para que nunca
+                      dejes tu busqueda de tu proximo tatuaje.
                     </p>
                   }
                   icon={PhoneLink}
@@ -96,12 +98,11 @@ class SectionOverview extends React.Component {
               </GridItem>
               <GridItem sm={3} className={classes.featuresShow}>
                 <InfoArea
-                  title="Save Time"
+                  title="Super Rápido"
                   description={
                     <p>
-                      Using the Material Kit PRO will save you large amount of
-                      time. You don{"'"}t have to worry about customising the
-                      basic Bootstrap design or generating new components.
+                      De una forma rapida y sencilla ahorraras tiempo ya que lo
+                      encontraras todo en esta misma App.
                     </p>
                   }
                   icon={AccessTime}
@@ -111,12 +112,12 @@ class SectionOverview extends React.Component {
               </GridItem>
               <GridItem sm={3} className={classes.featuresShow}>
                 <InfoArea
-                  title="Save Money"
+                  title="Gratis"
                   description={
                     <p>
-                      Creating your design from scratch with dedicated designers
-                      can be very expensive. Using a kit is the best option to
-                      start your development while bootstrapping your budget.
+                      Inkstr es totalmente gratuito y libre de publicidad, tu
+                      solo dedicate a buscar inspiración para tu proximo
+                      tatuaje.
                     </p>
                   }
                   icon={AttachMoney}
@@ -134,12 +135,14 @@ class SectionOverview extends React.Component {
                 md={8}
                 className={classNames(classes.mlAuto, classes.mrAuto)}
               >
-                <h2 className={classes.title}>Trusted by 330.000+ People</h2>
+                <h2 className={classes.title}>
+                  Más de 3000+ usuarios nos respaldan
+                </h2>
                 <h5 className={classes.description}>
-                  The UI Kits, Templates and Dashboards that we{"'"}ve created
-                  are used by
-                  <b> 330,000+ web developers</b> in over{" "}
-                  <b> 576.000 Web Projects</b>. This is what some of them think:
+                  Usuarios alrededor del mundo y sobre todo en la ciudad de
+                  <b> Guadalajara</b> han confiado en Inkstr{" "}
+                  <b> 2546 Tatuadores</b> tambien. Esto es lo que piensan
+                  algunos usuarios:
                 </h5>
               </GridItem>
             </GridContainer>
@@ -170,11 +173,11 @@ class SectionOverview extends React.Component {
                     </GridItem>
                     <GridItem md={9} sm={9}>
                       <CardBody plain className={classes.alignLeft}>
-                        <h4 className={classes.cardTitle}>Khaldi Yass</h4>
+                        <h4 className={classes.cardTitle}>Aimee Gonzalez</h4>
                         <p className={classes.cardDescription}>
-                          {'"'}As soon as I saw this kit, everything else isn
-                          {"'"}t the same anymore, I just can{"'"}t describe it
-                          guys! Thank you for this work!{'"'}
+                          {'"'}Gracias a Inkstr pude hacerme mi 4to tatuaje de
+                          una forma facil y muy amigable. Y lo mejor de todo es
+                          que el servicio es GRATUITO!{'"'}
                         </p>
                       </CardBody>
                     </GridItem>
@@ -207,11 +210,11 @@ class SectionOverview extends React.Component {
                     </GridItem>
                     <GridItem md={9} sm={9}>
                       <CardBody plain className={classes.alignLeft}>
-                        <h4 className={classes.cardTitle}>Josh Murray</h4>
+                        <h4 className={classes.cardTitle}>Jaime Alvarado</h4>
                         <p className={classes.cardDescription}>
-                          {'"'}Great kit! Used this for a client already and he
-                          is over the moon. Keep up the good work Creative Tim!
-                          10/10 for design, colours, and the feel of the kit.
+                          {'"'}Aquí encontre la inspiración de mi tatuaje, tenia
+                          tiempo buscando en internet pero aquí con unos cuantos
+                          click lo logré.
                           {'"'}
                         </p>
                       </CardBody>
@@ -245,10 +248,11 @@ class SectionOverview extends React.Component {
                     </GridItem>
                     <GridItem md={9} sm={9}>
                       <CardBody plain className={classes.alignLeft}>
-                        <h4 className={classes.cardTitle}>Michael Onubogu</h4>
+                        <h4 className={classes.cardTitle}>Sofia Cartámo</h4>
                         <p className={classes.cardDescription}>
-                          {'"'}Damn Daniel!!! This Material UI Kit is fresh AF!
-                          Amazing work!{'"'}
+                          {'"'}Rayos... simplemente la mejor app, tiene de todo,
+                          puesdes buscar y guardar esas fotos para que te puedas
+                          inspirar. Super !{'"'}
                         </p>
                       </CardBody>
                     </GridItem>
@@ -256,22 +260,6 @@ class SectionOverview extends React.Component {
                 </Card>
               </GridItem>
             </GridContainer>
-            <div className={classes.ourClients}>
-              <GridContainer justify="center">
-                <GridItem md={3} sm={3}>
-                  <img src={Vodafone} alt="vodafone" />
-                </GridItem>
-                <GridItem md={3} sm={3}>
-                  <img src={Microsoft} alt="microsoft" />
-                </GridItem>
-                <GridItem md={3} sm={3}>
-                  <img src={Harvard} alt="harvard" />
-                </GridItem>
-                <GridItem md={3} sm={3}>
-                  <img src={Standford} alt="stanford" />
-                </GridItem>
-              </GridContainer>
-            </div>
           </div>
         </div>
       </div>
