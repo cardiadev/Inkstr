@@ -43,17 +43,16 @@ class SectionCards extends React.Component {
             </GridItem>
             <GridItem md={4} sm={5} className={classes.mlAuto}>
               <div className={classes.sectionDescription}>
-                <h3 className={classes.title}>Unconventional Cards</h3>
+                <h3 className={classes.title}>
+                  Buscando un artista del tatuaje de calidad?
+                </h3>
                 <h6 className={classes.description}>
-                  One Card for Every Problem
+                  Encuentralo facil y rapido
                 </h6>
                 <h5 className={classes.description}>
-                  We love cards and everybody on the web seems to. We have gone
-                  above and beyond with options for you to organise your
-                  information. From cards designed for blog posts, to product
-                  cards or user profiles, you will have many options to choose
-                  from. All the cards follow the material principles and have a
-                  design that stands out.
+                  Con nuestro servicio Open Bookings, crea un informe de
+                  tatuajes y lo conectaremos con artistas locales para reservar
+                  su próxima cita de tatuajes.
                 </h5>
               </div>
             </GridItem>

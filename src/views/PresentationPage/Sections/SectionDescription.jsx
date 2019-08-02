@@ -40,11 +40,10 @@ class SectionDescription extends React.Component {
           <GridContainer justify="center">
             <GridItem md={8} sm={8}>
               <h4 className={classes.description}>
-                jajajajaja Kit React PRO is a Material-UI Kit with a fresh, new
-                design inspired by Google{"'"}s Material Design. You asked for
-                it, so we built it. It{"'"}s a great pleasure to introduce to
-                you the material concepts in an easy to use and beautiful set of
-                components.
+                Inkster una nueva herramienta que te permite de una forma
+                distinta, explorar más sobre el mundo de los tatuajes, de una
+                forma diferente, donde podras encontrar estudios y tatuadores de
+                toda la region.
               </h4>
             </GridItem>
           </GridContainer>
@@ -52,8 +51,8 @@ class SectionDescription extends React.Component {
             <GridContainer>
               <GridItem md={4} sm={4}>
                 <InfoArea
-                  title="Huge Number of Components"
-                  description="Every element that you need in a product comes built in as a component. All components fit perfectly with each other and can take variations in colour."
+                  title="Cientos de Tatuadores"
+                  description="Encontraras un gran listado de los tatuadores más reconocidos de todo Guadaljara."
                   icon={Apps}
                   iconColor="danger"
                   vertical={true}
@@ -61,8 +60,8 @@ class SectionDescription extends React.Component {
               </GridItem>
               <GridItem md={4} sm={4}>
                 <InfoArea
-                  title="Multi-Purpose Sections"
-                  description="Putting together a page has never been easier than matching together sections. From team presentation to pricing options, you can easily customise and built your pages."
+                  title="Estudios"
+                  description="Encontraras un perfil de todos los estudios de Tatuaje disponibles, asi como con que tatuadores cuenta cada uno."
                   icon={ViewDay}
                   iconColor="primary"
                   vertical={true}
@@ -70,8 +69,8 @@ class SectionDescription extends React.Component {
               </GridItem>
               <GridItem md={4} sm={4}>
                 <InfoArea
-                  title="Example Pages"
-                  description="If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages."
+                  title="All in One"
+                  description="Todo al alcance de tu mano, podras tener todo lo necesarío para tu proximo tatuaje, desde consejos, tatuadores, estudios y mucho más…"
                   icon={ViewCarousel}
                   iconColor="success"
                   vertical={true}

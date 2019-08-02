@@ -38,6 +38,18 @@ class PresentationPage extends React.Component {
     const { classes } = this.props;
     return (
       <div>
+        {/* <Header
+          absolute
+          brand="Creative Tim"
+          color="transparent"
+          fixed
+          color="transparent"
+          changeColorOnScroll={{
+            height: 400,
+            color: "primary"
+          }}
+          links={<HeaderLinks dropdownHoverColor="info" />}
+        /> */}
         <Header
           brand="INKSTR"
           links={<HeaderLinks dropdownHoverColor="info" />}

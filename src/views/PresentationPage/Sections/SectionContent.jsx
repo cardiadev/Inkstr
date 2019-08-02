@@ -28,9 +28,9 @@ import "animate.css/animate.min.css";
 
 import contentStyle from "assets/jss/material-kit-pro-react/views/presentationSections/contentStyle.jsx";
 // images
-import presentationiPad from "assets/img/assets-for-demo/presentationViewSectionComponent/presentation-ipad.jpg";
-import presentationiPadComments from "assets/img/assets-for-demo/presentationViewSectionComponent/ipad-comments.jpg";
-import presentationiPadTable from "assets/img/assets-for-demo/presentationViewSectionComponent/ipad-table.jpg";
+import presentationiPad from "assets/img/assets-for-demo/presentationViewSectionComponent/presentation-ipad.png";
+import presentationiPadComments from "assets/img/assets-for-demo/presentationViewSectionComponent/ipad-comments.png";
+import presentationiPadTable from "assets/img/assets-for-demo/presentationViewSectionComponent/ipad-table.png";
 
 class SectionContent extends React.Component {
   render() {
