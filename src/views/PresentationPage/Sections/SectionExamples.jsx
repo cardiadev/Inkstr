@@ -33,7 +33,6 @@ import imagesStyles from "assets/jss/material-kit-pro-react/imagesStyles.jsx";
 
 import img01 from "assets/img/assets-for-demo/example-pages/01.jpg";
 import img02 from "assets/img/assets-for-demo/example-pages/02.jpg";
-import img03 from "assets/img/assets-for-demo/example-pages/03.jpg";
 import img04 from "assets/img/assets-for-demo/example-pages/04.jpg";
 
 const styles = {

@@ -98,53 +98,34 @@ class AboutUsPage extends React.Component {
               <div className={classes.left}>
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/?ref=mkpr-about-us"
-                      className={classes.block}
-                      target="_blank"
-                    >
-                      Creative Tim
+                    <a href="/" className={classes.block}>
+                      INKSTR
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/presentation?ref=mkpr-about-us"
-                      className={classes.block}
-                      target="_blank"
-                    >
-                      About us
+                    <a href="/about-us" className={classes.block}>
+                      Nosotros
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="//blog.creative-tim.com/"
-                      className={classes.block}
-                      target="_blank"
-                    >
+                    <a href="/blog-post" className={classes.block}>
                       Blog
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/license?ref=mkpr-about-us"
-                      className={classes.block}
-                      target="_blank"
-                    >
-                      Licenses
+                    <a href="/" className={classes.block}>
+                      Aviso de Privacidad
                     </a>
                   </ListItem>
                 </List>
               </div>
               <div className={classes.right}>
-                &copy; {1900 + new Date().getYear()} , made with{" "}
-                <Favorite className={classes.icon} /> by{" "}
-                <a
-                  href="https://www.creative-tim.com?ref=mkpr-about-us"
-                  target="_blank"
-                >
-                  Creative Tim
+                &copy; {1900 + new Date().getYear()} , hecho con{" "}
+                <Favorite className={classes.icon} /> por BEDU{" "}
+                <a href="https://www.bedu.org/" target="_blank">
+                  UX | Frontend
                 </a>{" "}
-                for a better web.
+                students.
               </div>
             </div>
           }

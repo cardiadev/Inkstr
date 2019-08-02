@@ -22,10 +22,8 @@ import classNames from "classnames";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import NavPills from "components/NavPills/NavPills.jsx";
 import Button from "components/CustomButtons/Button.jsx";
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
+
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 

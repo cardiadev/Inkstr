@@ -35,10 +35,7 @@ import AttachMoney from "@material-ui/icons/AttachMoney";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // images
-import Vodafone from "assets/img/assets-for-demo/ourClients/vodafone.jpg";
-import Microsoft from "assets/img/assets-for-demo/ourClients/microsoft.jpg";
-import Harvard from "assets/img/assets-for-demo/ourClients/harvard.jpg";
-import Standford from "assets/img/assets-for-demo/ourClients/stanford.jpg";
+
 import profilePic1 from "assets/img/assets-for-demo/test1.jpg";
 import profilePic2 from "assets/img/assets-for-demo/test2.jpg";
 import profilePic3 from "assets/img/assets-for-demo/test3.jpg";

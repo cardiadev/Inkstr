@@ -41,17 +41,16 @@ class SectionContent extends React.Component {
           <GridContainer justify="center">
             <GridItem md={4}>
               <div className={classes.sectionDescription}>
-                <h3 className={classes.title}>Content Areas</h3>
+                <h3 className={classes.title}>Áreas de Contenido</h3>
                 <h6 className={classes.description}>
-                  For Areas that Need More Space
+                  Diversas herramientas a tu alcance
                 </h6>
                 <h5 className={classes.description}>
-                  If you need elements such as tables, comments, description
-                  areas, tabs and many others, we{"'"}ve got you covered. We
-                  took into consideration multiple use cases and came up with
-                  some specific elements that you will love to use. They{"'"}re
-                  beautiful and easy to use for the end user navigating your
-                  website.{" "}
+                  Descubre las increibles herramientas que ponemos a tu
+                  disposición, pero no lo es todo, ya que se forma muy cotidiana
+                  actualizamos nuestra app con nuevos <strong>Features</strong>{" "}
+                  y así poder crecer tu experiencia. Inkstr tu mejor opcion para
+                  tu proximo tatuaje.
                 </h5>
               </div>
             </GridItem>

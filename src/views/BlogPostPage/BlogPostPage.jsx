@@ -105,7 +105,7 @@ class BlogPostPage extends React.Component {
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a href="/" className={classes.block}>
+                    <a href="/blog-post" className={classes.block}>
                       Blog
                     </a>
                   </ListItem>

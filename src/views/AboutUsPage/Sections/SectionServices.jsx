@@ -56,15 +56,15 @@ function SectionServices(props) {
       <GridContainer>
         <GridItem md={4} sm={4}>
           <InfoArea
-            title="1. Design"
+            title="Perfil Avanzado"
             description={
               <span>
                 <p>
-                  The moment you use Material Kit, you know you’ve never felt
-                  anything like it. With a single use, this powerfull UI Kit
-                  lets you do more than ever before.{" "}
+                  Podras crear un perfil avanzado donde podrás llevar un
+                  seguimiento mas de cerca de los tatuadores e imagenes que te
+                  hayan inspirado para tu proximo tatuaje.
                 </p>
-                <a href="#pablo">Find more...</a>
+                <a href="#pablo">Leer más...</a>
               </span>
             }
             icon={Gesture}
@@ -73,15 +73,14 @@ function SectionServices(props) {
         </GridItem>
         <GridItem md={4} sm={4}>
           <InfoArea
-            title="2. Develop"
+            title="Personaliza tu Experiencia"
             description={
               <span>
                 <p>
-                  Divide details about your product or agency work into parts.
-                  Write a few lines about each one. A paragraph describing a
-                  feature will be enough.{" "}
+                  Podrás personalizar tu experiencia de una forma distinta y
+                  poder guardar todos esos ajustes con tu cuenta personal.
                 </p>
-                <a href="#pablo">Find more...</a>
+                <a href="#pablo">Leer más...</a>
               </span>
             }
             icon={Build}
@@ -90,15 +89,14 @@ function SectionServices(props) {
         </GridItem>
         <GridItem md={4} sm={4}>
           <InfoArea
-            title="3. Make Edits"
+            title="Interactua con los Artistas"
             description={
               <span>
                 <p>
-                  Divide details about your product or agency work into parts.
-                  Write a few lines about each one. A paragraph describing a
-                  feature will be enough.{" "}
+                  Manda mensajes y haz coneccion directamente con los artistas
+                  de la plataforma.
                 </p>
-                <a href="#pablo">Find more...</a>
+                <a href="#pablo">Leer más...</a>
               </span>
             }
             icon="mode_edit"

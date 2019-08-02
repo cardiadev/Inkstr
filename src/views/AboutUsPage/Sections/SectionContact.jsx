@@ -54,18 +54,18 @@ class SectionContact extends React.Component {
             className={classNames(classes.mrAuto, classes.mlAuto)}
           >
             <h2 className={classNames(classes.title, classes.textCenter)}>
-              Want to work with us?
+              ¿Quieres trabajar con nosotros?
             </h2>
             <h4 className={classNames(classes.description, classes.textCenter)}>
-              Divide details about your product or agency work into parts. Write
-              a few lines about each one and contact us about any further
-              collaboration. We will get back to you in a couple of hours.
+              No dudes en contactarnos, tenemos diferentes posiciones
+              disponibles desde agentes de ventas hasta desarrolladores para la
+              plataforma, de seguro podremos encontrarte algo.
             </h4>
             <form>
               <GridContainer>
                 <GridItem md={4} sm={4}>
                   <CustomInput
-                    labelText="Your name"
+                    labelText="Nombre"
                     formControlProps={{
                       fullWidth: true
                     }}
@@ -73,7 +73,7 @@ class SectionContact extends React.Component {
                 </GridItem>
                 <GridItem md={4} sm={4}>
                   <CustomInput
-                    labelText="Your email"
+                    labelText="Email"
                     formControlProps={{
                       fullWidth: true
                     }}
@@ -108,7 +108,7 @@ class SectionContact extends React.Component {
                           root: classes.selectMenuItem
                         }}
                       >
-                        Speciality
+                        Especialidad
                       </MenuItem>
                       <MenuItem
                         classes={{
@@ -117,7 +117,7 @@ class SectionContact extends React.Component {
                         }}
                         value="1"
                       >
-                        I{"'"}m a Designer
+                        Soy Diseñador
                       </MenuItem>
                       <MenuItem
                         classes={{
@@ -126,7 +126,7 @@ class SectionContact extends React.Component {
                         }}
                         value="2"
                       >
-                        I{"'"}m a Developer
+                        Soy Desarrollador
                       </MenuItem>
                       <MenuItem
                         classes={{
@@ -135,7 +135,7 @@ class SectionContact extends React.Component {
                         }}
                         value="3"
                       >
-                        I{"'"}m a Hero
+                        Soy lo que quieran
                       </MenuItem>
                     </Select>
                   </FormControl>
@@ -152,7 +152,7 @@ class SectionContact extends React.Component {
                   )}
                 >
                   <Button color="primary" round>
-                    Let{"'"}s talk
+                    Hablemos de trabajo
                   </Button>
                 </GridItem>
               </GridContainer>
