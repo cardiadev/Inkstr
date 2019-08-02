@@ -71,12 +71,11 @@ class SectionSections extends React.Component {
               className={classNames(classes.mrAuto, classes.mlAuto)}
             >
               <div className={classes.sectionDescription}>
-                <h2 className={classes.title}>Ready to Use Sections</h2>
+                <h2 className={classes.title}>Los mejores Tatuajes</h2>
                 <h5 className={classes.description}>
-                  Build your page section by section! We have created multiple
-                  options for you to put together and customise into pixel
-                  perfect pages. From headers to footers, you will be able to
-                  choose the best combination for your project.
+                  Estos son algunos de los tatuajes más votados por parte de
+                  nuestros usuarios, cada gota, cada tatuaje, un estilo
+                  diferente…
                 </h5>
                 <Link to={"/sections"}>
                   <Button
@@ -85,7 +84,7 @@ class SectionSections extends React.Component {
                     className={classes.navButton}
                     round
                   >
-                    view all sections
+                    Ver más
                   </Button>
                 </Link>
               </div>

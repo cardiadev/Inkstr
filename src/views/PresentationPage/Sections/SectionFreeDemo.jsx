@@ -46,25 +46,21 @@ class SectionFreeDemo extends React.Component {
               className={classes.mlAuto + " " + classes.mrAuto}
             >
               <div className={classes.iconGithub}>
-                <div className="fab fa-github" />
+                <div className="far fa-thumbs-up" />
               </div>
               <div>
-                <h2 className={classes.title}>Free Demo</h2>
+                <h2 className={classes.title}>¿Porque usar Inkstr?</h2>
                 <h5 className={classes.description}>
-                  Do you want to test and see the benefits of this kit before
-                  purchasing it? You can give the demo version a try. It
-                  features enough basic components for you to get a feel of the
-                  design and also test the quality of the code. Get it free on
-                  GitHub!
+                  A diferencia de otras Apps del mercado, nosotros verificamos
+                  cada perfil del tatuador, para que no te encuentres con
+                  sorpresas desagradables, así mismo contamos con un panel
+                  personalizado donde podras personalizar más tu experiencia. Y
+                  así mismo tambien encontraras algunas herramientas utiles ya
+                  seas todo un principiante o un experto.
                 </h5>
               </div>
-              <Button
-                href="https://demos.creative-tim.com/material-kit-react/#/?ref=mkpr-free-demo-section-presentation"
-                color="rose"
-                target="_blank"
-                round
-              >
-                View demo on github
+              <Button href="/" color="rose" target="_blank" round>
+                Descargar la App
               </Button>
             </GridItem>
             <GridItem md={6} sm={12} className={classes.mlAuto}>
@@ -74,22 +70,13 @@ class SectionFreeDemo extends React.Component {
                     className={classNames(classes.card, classes.cardPricing)}
                   >
                     <CardBody>
-                      <h3 className={classes.cardTitle}>Free Demo</h3>
+                      <h3 className={classes.cardTitle}>Otros</h3>
                       <ul>
                         <li>
-                          <b>60</b> Components
+                          <b>200</b> Tatuadores
                         </li>
                         <li>
-                          <b>3</b> Example Pages
-                        </li>
-                        <li>
-                          <Close
-                            className={classNames(
-                              classes.cardIcons,
-                              classes.dangerColor
-                            )}
-                          />{" "}
-                          Unconventional Cards
+                          <b>45</b> Estudios de Tatuaje
                         </li>
                         <li>
                           <Close
@@ -98,7 +85,7 @@ class SectionFreeDemo extends React.Component {
                               classes.dangerColor
                             )}
                           />{" "}
-                          Sections
+                          Perfiles
                         </li>
                         <li>
                           <Close
@@ -107,7 +94,7 @@ class SectionFreeDemo extends React.Component {
                               classes.dangerColor
                             )}
                           />{" "}
-                          Photoshop for Prototype
+                          Verificación de Cuentas
                         </li>
                         <li>
                           <Close
@@ -116,7 +103,16 @@ class SectionFreeDemo extends React.Component {
                               classes.dangerColor
                             )}
                           />{" "}
-                          Premium Support
+                          Viaja Tatuando
+                        </li>
+                        <li>
+                          <Close
+                            className={classNames(
+                              classes.cardIcons,
+                              classes.dangerColor
+                            )}
+                          />{" "}
+                          Promociones
                         </li>
                       </ul>
                     </CardBody>
@@ -127,22 +123,13 @@ class SectionFreeDemo extends React.Component {
                     className={classNames(classes.card, classes.cardPricing)}
                   >
                     <CardBody>
-                      <h3 className={classes.cardTitle}>PRO Version</h3>
+                      <h3 className={classes.cardTitle}>INKSTR</h3>
                       <ul>
                         <li>
-                          <b>1000+</b> Components
+                          <b>1000+</b> Tatuadores
                         </li>
                         <li>
-                          <b>12</b> Example Pages
-                        </li>
-                        <li>
-                          <Check
-                            className={classNames(
-                              classes.cardIcons,
-                              classes.successColor
-                            )}
-                          />{" "}
-                          Unconventional Cards
+                          <b>500+</b> Estudios de Tatuaje
                         </li>
                         <li>
                           <Check
@@ -151,7 +138,7 @@ class SectionFreeDemo extends React.Component {
                               classes.successColor
                             )}
                           />{" "}
-                          Sections
+                          Perfiles
                         </li>
                         <li>
                           <Check
@@ -160,7 +147,7 @@ class SectionFreeDemo extends React.Component {
                               classes.successColor
                             )}
                           />{" "}
-                          Photoshop for Prototype
+                          Verificación de Cuentas
                         </li>
                         <li>
                           <Check
@@ -169,7 +156,16 @@ class SectionFreeDemo extends React.Component {
                               classes.successColor
                             )}
                           />{" "}
-                          Premium Support
+                          Viaja Tatuando
+                        </li>
+                        <li>
+                          <Check
+                            className={classNames(
+                              classes.cardIcons,
+                              classes.successColor
+                            )}
+                          />{" "}
+                          Promociones
                         </li>
                       </ul>
                     </CardBody>

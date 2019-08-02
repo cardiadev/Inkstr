@@ -31,16 +31,10 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import examplesStyle from "assets/jss/material-kit-pro-react/views/presentationSections/examplesStyle.jsx";
 import imagesStyles from "assets/jss/material-kit-pro-react/imagesStyles.jsx";
 
-import exAboutUs from "assets/img/assets-for-demo/example-pages/ex-about-us.jpg";
-import exLanding from "assets/img/assets-for-demo/example-pages/ex-landing.jpg";
-import exContact from "assets/img/assets-for-demo/example-pages/ex-contact.jpg";
-import exBlogPost from "assets/img/assets-for-demo/example-pages/ex-blog-post.jpg";
-import exProductPage from "assets/img/assets-for-demo/example-pages/ex-product.jpg";
-import exLoginPage from "assets/img/assets-for-demo/example-pages/ex-login.jpg";
-import exPricing from "assets/img/assets-for-demo/example-pages/ex-pricing.jpg";
-import exSignup from "assets/img/assets-for-demo/example-pages/ex-register.jpg";
-import exProfile from "assets/img/assets-for-demo/example-pages/ex-profile.jpg";
-import exBlog from "assets/img/assets-for-demo/example-pages/ex-blog-posts.jpg";
+import img01 from "assets/img/assets-for-demo/example-pages/01.jpg";
+import img02 from "assets/img/assets-for-demo/example-pages/02.jpg";
+import img03 from "assets/img/assets-for-demo/example-pages/03.jpg";
+import img04 from "assets/img/assets-for-demo/example-pages/04.jpg";
 
 const styles = {
   ...examplesStyle,
@@ -58,117 +52,47 @@ class SectionExamples extends React.Component {
             className={classNames(classes.mrAuto, classes.mlAuto)}
           >
             <div className={classes.sectionDescription}>
-              <h2 className={classes.title}>Example Pages</h2>
+              <h2 className={classes.title}>Perfil de Tatuador</h2>
               <h5 className={classes.description}>
-                The easiest way to get started is to use one of our pre-built
-                example pages. From landing pages to e-commerce or blog pages,
-                you will be able jump start your development. Show your clients
-                a quick prototype and get inspired for your next project!
+                Encuentra la sección de cada tatuador, donde podras navegar y
+                visualizar sus ultimos trabajos realizados, así mismo
+                encontraras una seccion para contactarlo y hacerle aquellas
+                preguntas que te inquietan.
               </h5>
             </div>
           </GridItem>
           <GridContainer>
             <GridItem md={4} sm={4} xs={12}>
-              <h4 className={classes.title}>About Us</h4>
-              <Card className={classes.imgCardExtended}>
-                <Link to={"/about-us"}>
-                  <img
-                    src={exAboutUs}
-                    alt="About us"
-                    className={classes.imgCard}
-                  />
-                </Link>
-              </Card>
-              <h4 className={classes.title}>Landing Page</h4>
-              <Card className={classes.imgCardExtended}>
-                <Link to={"/landing-page"}>
-                  <img
-                    src={exLanding}
-                    alt="Landing Page"
-                    className={classes.imgCard}
-                  />
-                </Link>
-              </Card>
-              <h4 className={classes.title}>Contact Us</h4>
-              <Card className={classes.imgCardExtended}>
-                <Link to={"/contact-us"}>
-                  <img
-                    src={exContact}
-                    alt="Contact us"
-                    className={classes.imgCard}
-                  />
-                </Link>
-              </Card>
-            </GridItem>
-            <GridItem md={4} sm={4} xs={12}>
-              <h4 className={classes.title}>Blog Post</h4>
-              <Card className={classes.imgCardExtended}>
-                <Link to={"/blog-post"}>
-                  <img
-                    src={exBlogPost}
-                    alt="Blog Post"
-                    className={classes.imgCard}
-                  />
-                </Link>
-              </Card>
-              <h4 className={classes.title}>Product Page</h4>
-              <Card className={classes.imgCardExtended}>
-                <Link to={"/product-page"}>
-                  <img
-                    src={exProductPage}
-                    alt="Product Pge"
-                    className={classes.imgCard}
-                  />
-                </Link>
-              </Card>
-              <h4 className={classes.title}>Login Page</h4>
-              <Card className={classes.imgCardExtended}>
-                <Link to={"/login-page"}>
-                  <img
-                    src={exLoginPage}
-                    alt="Login Page"
-                    className={classes.imgCard}
-                  />
-                </Link>
-              </Card>
-            </GridItem>
-            <GridItem md={4} sm={4} xs={12}>
-              <h4 className={classes.title}>Pricing Pge</h4>
-              <Card className={classes.imgCardExtended}>
-                <Link to={"/pricing"}>
-                  <img
-                    src={exPricing}
-                    alt="Pricing Page"
-                    className={classes.imgCard}
-                  />
-                </Link>
-              </Card>
-              <h4 className={classes.title}>Signup Page</h4>
-              <Card className={classes.imgCardExtended}>
-                <Link to={"/signup-page"}>
-                  <img
-                    src={exSignup}
-                    alt="Signup Page"
-                    className={classes.imgCard}
-                  />
-                </Link>
-              </Card>
-              <h4 className={classes.title}>Profile Page</h4>
+              <h4 className={classes.title}>Rob Barbas</h4>
               <Card className={classes.imgCardExtended}>
                 <Link to={"/profile-page"}>
                   <img
-                    src={exProfile}
-                    alt="Profile Page"
+                    src={img01}
+                    alt="Rob Barbas"
                     className={classes.imgCard}
                   />
                 </Link>
               </Card>
-              <h4 className={classes.title}>Blog Posts</h4>
+            </GridItem>
+            <GridItem md={4} sm={4} xs={12}>
+              <h4 className={classes.title}>Andy Marques</h4>
               <Card className={classes.imgCardExtended}>
-                <Link to={"/blog-posts"}>
+                <Link to={"/profile-page"}>
                   <img
-                    src={exBlog}
-                    alt="Blog Posts"
+                    src={img04}
+                    alt="Andy Marques"
+                    className={classes.imgCard}
+                  />
+                </Link>
+              </Card>
+            </GridItem>
+            <GridItem md={4} sm={4} xs={12}>
+              <h4 className={classes.title}>Wendy Pham</h4>
+              <Card className={classes.imgCardExtended}>
+                <Link to={"/profile-page"}>
+                  <img
+                    src={img02}
+                    alt="Wendy Pham"
                     className={classes.imgCard}
                   />
                 </Link>
