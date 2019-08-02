@@ -38,11 +38,11 @@ function SectionDescription(props) {
           className={classNames(classes.mrAuto, classes.mlAuto)}
         >
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            Mucho mas que una simple App, a diferencia de otras plataformas te
+            damos algunos beneficios extras como el tener tu perfil altamente
+            personalizado, y puedas llevar un seguimiento mayor de aquellos
+            artistas que ya el hayas echado el ojo para que te hagan tu proximo
+            tatuaje.
           </h5>
         </GridItem>
       </GridContainer>

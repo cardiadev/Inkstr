@@ -52,13 +52,13 @@ class AboutUsPage extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit PRO React"
-          links={<HeaderLinks dropdownHoverColor="info" />}
+          brand="Inkter"
+          links={<HeaderLinks dropdownHoverColor="primary" />}
           fixed
           color="transparent"
           changeColorOnScroll={{
             height: 300,
-            color: "info"
+            color: "primary"
           }}
         />
         <Parallax image={require("assets/img/bg9.jpg")} filter="dark" small>
@@ -73,10 +73,11 @@ class AboutUsPage extends React.Component {
                   classes.textCenter
                 )}
               >
-                <h1 className={classes.title}>About Us</h1>
+                <h1 className={classes.title}>Inkstr</h1>
                 <h4>
-                  Meet the amazing team behind this project and find out more
-                  about how we work.
+                  Es un App que genera valor a todo mundo y ofrecerte un todo en
+                  uno, para que puedas realizar tu proximo tatuaje, mucho más
+                  facil.
                 </h4>
               </GridItem>
             </GridContainer>
@@ -85,7 +86,7 @@ class AboutUsPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <SectionDescription />
-            <SectionTeam />
+            {/* <SectionTeam /> */}
             <SectionServices />
             <SectionOffice />
             <SectionContact />

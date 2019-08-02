@@ -45,7 +45,7 @@ function SectionSimilarStories({ ...props }) {
         <GridContainer>
           <GridItem md={12}>
             <h2 className={classes.title + " " + classes.textCenter}>
-              Similar Stories
+              Post Similares
             </h2>
             <br />
             <GridContainer>
@@ -65,19 +65,18 @@ function SectionSimilarStories({ ...props }) {
                   </CardHeader>
                   <CardBody>
                     <Info>
-                      <h6>ENTERPRISE</h6>
+                      <h6>POST SIMILARES</h6>
                     </Info>
                     <h4 className={classes.cardTitle}>
                       <a href="#pablo">
-                        Autodesk looks to future of 3D printing with Project
-                        Escher
+                        ¿Puedes hacerte un tatuaje durante el embarazo?
                       </a>
                     </h4>
                     <p className={classes.description}>
-                      Like so many organizations these days, Autodesk is a
-                      company in transition. It was until recently a traditional
-                      boxed software company selling licenses.
-                      <a href="#pablo"> Read More </a>
+                      Es posible que no valga la pena correr el riesgo de
+                      hacerse un nuevo tatuaje durante el embarazo por varias
+                      razones. En general, los expertos...
+                      <a href="#pablo"> Leer más </a>
                     </p>
                   </CardBody>
                 </Card>
@@ -98,18 +97,16 @@ function SectionSimilarStories({ ...props }) {
                   </CardHeader>
                   <CardBody>
                     <Success>
-                      <h6>STARTUPS</h6>
+                      <h6>POST SIMILARES</h6>
                     </Success>
                     <h4 className={classes.cardTitle}>
-                      <a href="#pablo">
-                        Lyft launching cross-platform service this week
-                      </a>
+                      <a href="#pablo">¿Cómo puedo quitarme un tatuaje?</a>
                     </h4>
                     <p className={classes.description}>
-                      Like so many organizations these days, Autodesk is a
-                      company in transition. It was until recently a traditional
-                      boxed software company selling licenses.
-                      <a href="#pablo"> Read More </a>
+                      La eliminación de un tatuaje lleva tiempo, brinda
+                      paciencia y obviamente cuesta dinero. Esta vez, la guía
+                      informativa de Inkster.
+                      <a href="#pablo"> Leer más </a>
                     </p>
                   </CardBody>
                 </Card>
@@ -130,20 +127,18 @@ function SectionSimilarStories({ ...props }) {
                   </CardHeader>
                   <CardBody>
                     <Danger>
-                      <h6>
-                        <TrendingUp /> ENTERPRISE
-                      </h6>
+                      <h6>POST SIMILARES</h6>
                     </Danger>
                     <h4 className={classes.cardTitle}>
                       <a href="#pablo">
-                        6 insights into the French Fashion landscape
+                        Nuevos tatuajes escolares: orígenes, estilos y artistas
                       </a>
                     </h4>
                     <p className={classes.description}>
-                      Like so many organizations these days, Autodesk is a
-                      company in transition. It was until recently a traditional
-                      boxed software company selling licenses.
-                      <a href="#pablo"> Read More </a>
+                      Una de las pocas cosas que la gente no nota sobre los
+                      tatuajes de New School es cómo se cimentan sus fundamentos
+                      en American Traditional.
+                      <a href="#pablo"> Leer más </a>
                     </p>
                   </CardBody>
                 </Card>

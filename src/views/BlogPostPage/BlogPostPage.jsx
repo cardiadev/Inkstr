@@ -51,13 +51,13 @@ class BlogPostPage extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit PRO React"
-          links={<HeaderLinks dropdownHoverColor="info" />}
+          brand="Inkstr"
+          links={<HeaderLinks dropdownHoverColor="primary" />}
           fixed
           color="transparent"
           changeColorOnScroll={{
             height: 300,
-            color: "info"
+            color: "primary"
           }}
         />
         <Parallax image={require("assets/img/bg5.jpg")} filter="dark">
@@ -65,15 +65,17 @@ class BlogPostPage extends React.Component {
             <GridContainer justify="center">
               <GridItem md={8} className={classes.textCenter}>
                 <h1 className={classes.title}>
-                  How We Built the Most Successful Castle Ever
+                  ¿Cuánto tiempo tarda un tatuaje en sanar?
                 </h1>
                 <h4 className={classes.subtitle}>
-                  The last 48 hours of my life were total madness. This is what
-                  I did.
+                  Se necesitan 2-3 semanas para que un tatuaje sane por
+                  completo. Durante ese tiempo, su piel hace muchas cosas para
+                  curar su tatuaje: esto es lo que debe esperar y lo que no debe
+                  esperar.
                 </h4>
                 <br />
                 <Button color="rose" size="lg" round>
-                  <FormatAlignLeft /> Read Article
+                  <FormatAlignLeft /> Leer articulo
                 </Button>
               </GridItem>
             </GridContainer>
@@ -93,53 +95,34 @@ class BlogPostPage extends React.Component {
               <div className={classes.left}>
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/?ref=mkpr-blog-post"
-                      target="_blank"
-                      className={classes.block}
-                    >
-                      Creative Tim
+                    <a href="/" className={classes.block}>
+                      INKSTR
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/presentation?ref=mkpr-blog-post"
-                      target="_blank"
-                      className={classes.block}
-                    >
-                      About us
+                    <a href="/about-us" className={classes.block}>
+                      Nosotros
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://blog.creative-tim.com/?ref=mkpr-blog-post"
-                      target="_blank"
-                      className={classes.block}
-                    >
+                    <a href="/" className={classes.block}>
                       Blog
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/license?ref=mkpr-blog-post"
-                      target="_blank"
-                      className={classes.block}
-                    >
-                      Licenses
+                    <a href="/" className={classes.block}>
+                      Aviso de Privacidad
                     </a>
                   </ListItem>
                 </List>
               </div>
               <div className={classes.right}>
-                &copy; {1900 + new Date().getYear()} , made with{" "}
-                <Favorite className={classes.icon} /> by{" "}
-                <a
-                  href="https://www.creative-tim.com?ref=mkpr-blog-post"
-                  target="_blank"
-                >
-                  Creative Tim
+                &copy; {1900 + new Date().getYear()} , hecho con{" "}
+                <Favorite className={classes.icon} /> por BEDU{" "}
+                <a href="https://www.bedu.org/" target="_blank">
+                  UX | Frontend
                 </a>{" "}
-                for a better web.
+                students.
               </div>
             </div>
           }

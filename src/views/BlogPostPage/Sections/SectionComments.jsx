@@ -43,21 +43,19 @@ function SectionComments({ ...props }) {
       <GridContainer justify="center">
         <GridItem xs={12} sm={10} md={8}>
           <div>
-            <h3 className={classes.title}>3 Comments</h3>
+            <h3 className={classes.title}>3 Comentarios</h3>
             <Media
               avatar={profile4}
               title={
                 <span>
-                  Tina Andrew <small>· 7 minutes ago</small>
+                  Tina Lavalatina <small>· 5 dias antes</small>
                 </span>
               }
               body={
                 <p className={classes.color555}>
-                  Chance too good. God level bars. I{"'"}m so proud of
-                  @LifeOfDesiigner #1 song in the country. Panda! Don{"'"}t be
-                  scared of the truth because we need to restart the human
-                  foundation in truth I stand with the most humility. We are so
-                  blessed!
+                  Yo trate de cuidarme mi tatuaje, pero por no tener los debidos
+                  cuidados ahora parece deslavado, y tengo que ir a que me lo
+                  retoquen, como dicen el holgazan trabaja doble, jajaja XD
                 </p>
               }
               footer={
@@ -73,7 +71,7 @@ function SectionComments({ ...props }) {
                       simple
                       className={classes.footerButtons}
                     >
-                      <Reply className={classes.footerIcons} /> Reply
+                      <Reply className={classes.footerIcons} /> Responder
                     </Button>
                   </Tooltip>
 
@@ -91,19 +89,16 @@ function SectionComments({ ...props }) {
               avatar={profile1}
               title={
                 <span>
-                  John Camber <small>· Yesterday</small>
+                  Juan Ramirez <small>· 2 horas antes</small>
                 </span>
               }
               body={
                 <span className={classes.color555}>
                   <p>
-                    Hello guys, nice to have you on the platform! There will be
-                    a lot of great stuff coming soon. We will keep you posted
-                    for the latest news.
+                    Yo pase por algo similar, no me cuide, pero así pasa por no
+                    tener la información adecuada.
                   </p>
-                  <p>
-                    Don{"'"}t forget, You{"'"}re Awesome!
-                  </p>
+                  <p>No lo olvides eres INCREIBLE !</p>
                 </span>
               }
               footer={
@@ -119,7 +114,7 @@ function SectionComments({ ...props }) {
                       simple
                       className={classes.footerButtons}
                     >
-                      <Reply className={classes.footerIcons} /> Reply
+                      <Reply className={classes.footerIcons} /> Responder
                     </Button>
                   </Tooltip>
 
@@ -134,18 +129,14 @@ function SectionComments({ ...props }) {
                   avatar={profile4}
                   title={
                     <span>
-                      Tina Andrew <small>· 12 Hours Ago</small>
+                      Tina Lavalatina <small>· 7 minutos antes</small>
                     </span>
                   }
                   body={
                     <span className={classes.color555}>
                       <p>
-                        Hello guys, nice to have you on the platform! There will
-                        be a lot of great stuff coming soon. We will keep you
-                        posted for the latest news.
-                      </p>
-                      <p>
-                        Don{"'"}t forget, You{"'"}re Awesome!
+                        Eso si Juan, pero de ahora en adelante tendre los
+                        cuidados que requiere mi tatuaje.
                       </p>
                     </span>
                   }
@@ -161,7 +152,7 @@ function SectionComments({ ...props }) {
                         simple
                         className={classes.footerButtons}
                       >
-                        <Reply className={classes.footerIcons} /> Reply
+                        <Reply className={classes.footerIcons} /> Responder
                       </Button>
                     </Tooltip>
                   }
@@ -169,12 +160,12 @@ function SectionComments({ ...props }) {
               ]}
             />
           </div>
-          <h3 className={classes.title}>Post your comment</h3>
+          <h3 className={classes.title}>Postea tu comentario</h3>
           <Media
             avatar={profile6}
             body={
               <CustomInput
-                labelText=" Write some nice stuff or nothing..."
+                labelText=" Escribe algo importante o talvez no..."
                 id="nice"
                 formControlProps={{
                   fullWidth: true
@@ -187,7 +178,7 @@ function SectionComments({ ...props }) {
             }
             footer={
               <Button color="primary" round className={classes.footerButtons}>
-                Post comment
+                Postear comentario
               </Button>
             }
           />

@@ -49,13 +49,13 @@ class BlogPostsPage extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit PRO React"
-          links={<HeaderLinks dropdownHoverColor="info" />}
+          brand="Inkstr"
+          links={<HeaderLinks dropdownHoverColor="primary" />}
           fixed
           color="transparent"
           changeColorOnScroll={{
             height: 400,
-            color: "info"
+            color: "primary"
           }}
         />
         <Parallax image={require("assets/img/bg10.jpg")} filter="dark" small>
@@ -63,7 +63,7 @@ class BlogPostsPage extends React.Component {
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.textCenter}>
                 <h2 className={classes.title}>
-                  A Place for Entrepreneurs to Share and Discover New Stories
+                  20 increíbles tatuajes de chicas Prodigy Charbelle Lopes
                 </h2>
               </GridItem>
             </GridContainer>

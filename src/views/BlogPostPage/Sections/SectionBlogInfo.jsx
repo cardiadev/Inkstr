@@ -41,10 +41,10 @@ function SectionBlogInfo({ ...props }) {
           <GridContainer>
             <GridItem xs={12} sm={6} md={6}>
               <div className={classes.blogTags}>
-                Tags:
-                <Badge color="primary">Photography</Badge>
-                <Badge color="primary">Stories</Badge>
-                <Badge color="primary">Castle</Badge>
+                Tags: <br />
+                <Badge color="primary">Puntillismo</Badge>
+                <Badge color="primary">Cuidado</Badge>
+                <Badge color="primary">Tatuajes</Badge>
               </div>
             </GridItem>
             <GridItem xs={12} sm={6} md={6}>
@@ -68,16 +68,16 @@ function SectionBlogInfo({ ...props }) {
                 </CardAvatar>
               </GridItem>
               <GridItem xs={12} sm={8} md={8}>
-                <h4 className={classes.cardTitle}>Alec Thompson</h4>
+                <h4 className={classes.cardTitle}>Issac Valtierra</h4>
                 <p className={classes.description}>
-                  I{"'"}ve been trying to figure out the bed design for the
-                  master bedroom at our Hidden Hills compound...I like good
-                  music from Youtube.
+                  He estado tratando de averiguar el diseño de la cama para el
+                  dormitorio principal en nuestro complejo de Hidden Hills ...
+                  Me gusta la buena música de Youtube.
                 </p>
               </GridItem>
               <GridItem xs={12} sm={2} md={2}>
                 <Button round className={classes.pullRight}>
-                  Follow
+                  Seguir
                 </Button>
               </GridItem>
             </GridContainer>

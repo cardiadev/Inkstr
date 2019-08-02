@@ -44,26 +44,31 @@ function SectionText({ ...props }) {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={8} md={8}>
-          <h3 className={classes.title}>
-            The Castle Looks Different at Night...
-          </h3>
+          <h3 className={classes.title}>Cuidados Basico de un Tatuaje</h3>
           <p>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more. We are here to make life better.
+            En Resumen:
             <br />
-            <br />
-            And now I look and look around and there’s so many Kanyes I{"'"}ve
-            been trying to figure out the bed design for the master bedroom at
-            our Hidden Hills compound... and thank you for turning my personal
-            jean jacket into a couture piece.
+            <ul>
+              <li>
+                Manténgalo limpio con jabón antibacteriano, no lo frote ni lo
+                pique, cúbralo con una capa ligera de A&D.
+              </li>
+              <li>
+                ¡Continúe limpiando, pero no se sumerja en una piscina o bañera!
+                Continuar usando A&D No recoja, pique ni pele las costras y
+                escamas que se están formando.
+              </li>
+              <li>
+                Use una capa ligera de loción sin perfume. Voila! Nueva dermis!
+                Continúa usando loción para ver cómo tu hermoso tatuaje nuevo se
+                cura perfectamente en este momento.
+              </li>
+            </ul>
           </p>
           <Quote
             textClassName={classes.quoteText}
-            text="“And thank you for turning my personal jean jacket into a couture piece.”"
-            author="Kanye West, Producer."
+            text="“El secreto de una buena cicatrización de un Tatuaje es dejar la piel respirar y mantenerla limpia, para evitar que se infecte.”"
+            author="Pedro Romo, Tatuador"
           />
         </GridItem>
         <GridItem xs={12} sm={10} md={10} className={classes.section}>
@@ -80,33 +85,52 @@ function SectionText({ ...props }) {
           </GridContainer>
         </GridItem>
         <GridItem xs={12} sm={8} md={8}>
-          <h3 className={classes.title}>Rest of the Story:</h3>
+          <h3 className={classes.title}>El resto de la historia:</h3>
           <p>
-            We are here to make life better. And now I look and look around and
-            there’s so many Kanyes I{"'"}ve been trying to figure out the bed
-            design for the master bedroom at our Hidden Hills compound... and
-            thank you for turning my personal jean jacket into a couture piece.
-            <br />I speak yell scream directly at the old guard on behalf of the
-            future. daytime All respect prayers and love to Phife’s family Thank
-            you for so much inspiration.
+            Por lo general, un tatuaje tarda entre 1 y 2 semanas en verse
+            completamente curado, pero tarda otras semanas en curarse realmente
+            en todas las capas de la piel. La línea de tiempo de curación puede
+            depender del tipo de tinta que obtenga, el estilo y el tamaño. Las
+            diferentes partes de su cuerpo tienen sensibilidades y tipos de piel
+            ligeramente diferentes, lo que afectará qué tan bien absorben la
+            tinta y qué tan rápido sanan. La curación completa de todas las
+            capas de piel rota puede demorar hasta 4 meses, a pesar de que su
+            tatuaje aparecerá curado antes de ese punto. El proceso de curación
+            varía según el sistema inmunitario de una persona, la capacidad de
+            combatir infecciones y el tratamiento posterior, especialmente la
+            limpieza y la protección solar.
           </p>
           <p>
-            Thank you Anna for the invite thank you to the whole Vogue team And
-            I love you like Kanye loves Kanye Pand Pand Panda I{"'"}ve been
-            trying to figure out the bed design for the master bedroom at our
-            Hidden Hills compound...The Pablo pop up was almost a pop up of
-            influence. All respect prayers and love to Phife’s family Thank you
-            for so much inspiration daytime I love this new Ferg album! The Life
-            of Pablo is now available for purchase I have a dream. Thank you to
-            everybody who made The Life of Pablo the number 1 album in the
-            world! I{"'"}m so proud of the nr #1 song in the country. Panda!
-            Good music 2016!
+            Te acabas de tatuar y te ves increíble. Tienes las instrucciones de
+            tu artista sobre el cuidado posterior, y estás listo para seguirlas
+            hasta una T. Durante las próximas semanas, tu piel pasará por un
+            proceso de curación: esto es lo que puedes esperar durante ese
+            proceso y cómo para cuidar cada etapa. Solo recuerde, cada persona
+            es un poco diferente fisiológicamente, por lo que su proceso de
+            curación no se verá exactamente así, pero estará bastante cerca. Por
+            lo general, tomará de 2 a 3 semanas para que su tatuaje sane por
+            completo. Investigar antes eligiendo un salón de tatuajes de buena
+            reputación minimizará el riesgo de complicaciones e infecciones.
+            Tenga en cuenta que no somos médicos y su artista no es médico, así
+            que llame a su médico de inmediato si sospecha una infección.
           </p>
           <p>
-            I love this new Ferg album! The Life of Pablo is now available for
-            purchase I have a dream. Thank you to everybody who made The Life of
-            Pablo the number 1 album in the world! I{"'"}m so proud of the nr #1
-            song in the country. Panda! Good music 2016!
+            Su tatuaje, especialmente si se trata de algo más que un simple
+            trabajo de línea, en este momento será una costra. Su epidermis se
+            está curando y ya no es una herida abierta: sus glóbulos blancos,
+            los protectores de su sistema inmunitario, han trabajado junto con
+            las proteínas plasmáticas en su cuerpo para crear una cubierta
+            costrosa donde estaba su herida abierta. La tinta todavía está allí,
+            debajo, pero la primera capa que flotaba en la epidermis se
+            desprenderá.{" "}
+            <strong>
+              No escoja, no pele, no presione, no se meta con eso.{" "}
+            </strong>
+            La forma en que tratas esta etapa realmente puede afectar el arte:
+            confía en nosotros, hemos dejado nuestros tatuajes nuevos y
+            escamosos en suficientes rincones de la mesa para saberlo. Puedes
+            usar un poco de crema hidratante para mantener tu piel hidratada,
+            ¡pero no exageres!
           </p>
         </GridItem>
       </GridContainer>

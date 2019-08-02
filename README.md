@@ -12,25 +12,13 @@ Using it is very simple and it will enable you to refresh you classic looking ap
 
 ## Table of Contents
 
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [Browser Support](#browser-support)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
+- [Landing Page](#demo)
+- [About Us](#quick-start)
+- [Signup Page](#documentation)
+- [Gallery](#browser-support)
+- [Blog](#reporting-issues)
+- [Tattoo Profile](#profile-page)
 - [Licensing](#licensing)
-- [Useful Links](#useful-links)
-
-## Demo
-
-- [Index Page](https://#)
-- [Buttons Section](https://#)
-- [Navigation Section](https://#)
-- [Notifications Section](https://#)
-- [User profile page](https://#)
-- [Landing page](https://#)
-
-[View More](https://#).
 
 ## Documentation
 

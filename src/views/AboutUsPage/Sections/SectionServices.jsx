@@ -45,10 +45,11 @@ function SectionServices(props) {
             classes.textCenter
           )}
         >
-          <h2 className={classes.title}>We build awesome products</h2>
+          <h2 className={classes.title}>Creamos algo increible para ti</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
+            Simplemente genial, al utilizar Inkster, tambien estas apoyando
+            otras causas beneficas, y tambien estaras dando un paso más adelante
+            para tu proximo tatuaje.
           </h5>
         </GridItem>
       </GridContainer>
