@@ -51,7 +51,7 @@ class BlogPostPage extends React.Component {
     return (
       <div>
         <Header
-          brand="Inkstr"
+          brand="INKSTR"
           links={<HeaderLinks dropdownHoverColor="primary" />}
           fixed
           color="transparent"

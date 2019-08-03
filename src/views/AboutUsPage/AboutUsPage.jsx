@@ -52,7 +52,7 @@ class AboutUsPage extends React.Component {
     return (
       <div>
         <Header
-          brand="Inkter"
+          brand="INKSTR"
           links={<HeaderLinks dropdownHoverColor="primary" />}
           fixed
           color="transparent"

@@ -84,7 +84,7 @@ class SignUpPage extends React.Component {
         <Header
           absolute
           color="transparent"
-          brand="Inkstr"
+          brand="INKSTR"
           links={<HeaderLinks dropdownHoverColor="rose" />}
           {...rest}
         />
